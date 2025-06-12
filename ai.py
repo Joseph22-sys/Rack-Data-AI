@@ -2,7 +2,7 @@ import os
 from dotenv import load_dotenv
 from google import genai
 from google.genai import types
-import streamlit as at
+import streamlit as st
 
 load_dotenv()
 
