@@ -6,7 +6,7 @@ import time
 
 def scrape_edge_website(website):
     print("launching the Edge Browser...")
-    edge_driver_path = "./drivers/msedgedriver.exe"
+    edge_driver_path = "./drivers/msedgedriver"
     
     driver = webdriver.Edge(service=EdgeService(edge_driver_path),options=EdgeOptions())
     
