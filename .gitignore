@@ -1,4 +1,4 @@
 .env
 venv/
-__pycache__/
 .code-workspace
+.streamlit/secrets.toml
