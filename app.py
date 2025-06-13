@@ -20,8 +20,8 @@ if st.button("Scrape/Analyze"):
     st.write("Scraping the site...")
     try:
         page_content = request.get('https://api.scraperapi.com/', params=payload)
-
-        content = 
+        content = output_data(page_content)
+        st.write(content)
         
     except Exception as e:
         st.error(f"An error occurred: {e}")
