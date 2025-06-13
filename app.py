@@ -22,7 +22,10 @@ if st.button("Scrape/Analyze"):
         
         content = output_data(page_content)
         st.write(content)
+
+        st.success("Scraping/Analysis complete d")
         
+         
     except Exception as e:
         st.error(f"An error occurred: {e}")
         st.warning("Please check the URL and try again.")
