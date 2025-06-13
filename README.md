@@ -7,7 +7,7 @@
         - beautifulSoup
         - selenium
 
-## This app can be accessed on the streamlit cloud via:
+## This app can be accessed via:
     https://rack-data-ai.streamlit.app/
     
 ## Setup and Installation:
