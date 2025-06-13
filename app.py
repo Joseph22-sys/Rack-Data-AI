@@ -19,7 +19,9 @@ payload = { 'api_key': st.secrets["SCRAPER_API_KEY"], 'url': st.session_state.ur
 if st.button("Scrape/Analyze"):
     st.write("Scraping the site...")
     try:
-        page_content = request.get('https://api.scraperapi.com/', params=payload)
+        page_content = request.get('https://api.scraperapi.com/', params=payload).text
+        
+        
         content = output_data(page_content)
         st.write(content)
         
