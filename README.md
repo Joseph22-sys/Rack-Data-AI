@@ -6,6 +6,10 @@
         - Google-genai sdk
         - beautifulSoup
         - selenium
+##Link to app:
+
+    https://rack-data-ai-update.streamlit.app/
+
 
 ## Setup and Installation:
 1. Clone the Repository:
