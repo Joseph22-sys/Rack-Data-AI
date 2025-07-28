@@ -23,7 +23,7 @@ if st.button("Scrape/Analyze"):
         content = output_data(page_content)
         st.write(content)
 
-        st.success("Scraping/Analysis complete d")
+        st.success("Scraping/Analysis completed")
         
          
     except Exception as e:
